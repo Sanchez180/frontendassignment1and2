@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header{
+    height: 80px;
+    max-width: 100%;
+    background-color: rgb(166, 201, 189);
+    display: flex;
+    align-items: center; /* Vertical centering */
+  }
+  
+  .container{
+    height: 100vh;
+    max-width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .sidebar{
+    width: 25%;
+    background-color: whitesmoke;
+    padding: 30px;
+    
+  }
+  .body{
+    width: 75%;
+    background-color: rgb(243, 232, 232);
+    padding: 30px;
+
+    
+  }
+  .footer{
+    height: 30px;
+    max-width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content:center;
+
+  }
+  @media screen and (max-width: 360) {
+    .container {
+      height: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
